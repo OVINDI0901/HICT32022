@@ -1,6 +1,7 @@
 const users = [
-{ id: 1, name: "Thilini Sandeepani", role: "Admin" },
-{ id: 2, name: "Student", role: "User" }
+    { id: 1, name: "Thilina Sandeepani", email: "thilina@example.com" },
+    { id: 2, name: "John Doe", email: "john@example.com" },
+    { id: 3, name: "Ovindi (Team Member)", email: "ovindi@example.com" } // <-- Menna me aluth line eka api ekathu kala!
 ];
-// This line allows other files to use this data (Code Reuse!)
+
 module.exports = users;
